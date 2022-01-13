@@ -1,0 +1,667 @@
+body{
+ /* width: 100%; */
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* overflow-x: hidden; */
+}
+body, html{
+    overflow-x: hidden;
+}
+
+/* ................header starts from here.................. */
+
+header{
+    background-image: url('./field-5932123.jpg');
+    background-position: center;
+    background-size: cover;
+    /* opacity: 1; */
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    /* transform: scale(1); */
+}
+
+.header-text{
+    /* width: 900px; */
+    margin: auto;
+    /* display: flex;
+    flex-direction: column; */
+    margin-top: 300px ;
+    text-align: center;
+    color: white;
+}
+h1{
+    font-weight: lighter;
+    color: white;
+  font-size: 10vmin;
+  font-family: 'Fredericka the Great', cursive;
+}
+.header-text .line{
+    width: 350px;
+    border-radius: 10px;
+    height: 7px;
+    margin: auto;
+    cursor: pointer;
+    background-color: #ff2400bd;
+}
+.header-text .line:hover{
+    width: 500px;
+    transition: all 1s ease-in-out;
+}
+h2{
+    margin-top:20px ;
+    font-size: 5vmin;
+    margin-bottom: 20px;
+    
+}
+
+/* .header-text p{
+   
+    font-size: 2.5vmin;
+    width: 1100px;
+    margin-bottom: 20px;
+} */
+
+.header-text a{
+    padding: 8px 30px;
+    background-color: rgba(255, 0, 43, 0.863);
+    text-decoration: none;
+    /* margin-top: 20px; */
+    color: white;
+    border-radius: 20px;
+}
+
+/* header:hover{
+    transform: scale(1.01);
+    transition: all 1s ease-in-out;
+} */
+
+/* ................header ends here .................. */
+
+
+/* ................navbar starts from here.................. */
+nav{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.308);
+    border-bottom-right-radius: 10px;
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    /* opacity: ; */
+    /* position: sticky; */
+}
+
+.navbar h3{
+    font-size: 4.4vmin;
+    font-weight: lighter;
+    cursor: pointer;
+    color: rgb(226, 228, 255);
+    font-family: Fredericka the Great, sans-serif;
+}
+.navbar img {
+    align-items: flex-start;
+    cursor: pointer;
+    margin-top: 0px;
+    font-size: 60px;
+}
+
+.navbar img:hover {
+    transform: rotate(-360deg);
+    transition: all ease 1.7s;
+}
+
+.nav-ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 90px;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    position: relative;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 3.2vmin;
+    font-weight: 400;
+}
+ul img{
+    cursor: pointer;
+}
+
+
+ul li a::after{
+    content: '';
+    height: 4px;
+    width: 0;
+    background: #13f700;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s ease-in-out;
+}
+ul li a:hover::after{
+    width: 100%;
+}
+
+ul li a:hover{
+  color: #13f700;
+
+}
+
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+
+.bar{
+    display: block;
+    /* display: none; */
+    height: 3px;
+    width: 30px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: whitesmoke;
+
+}
+
+/* ................navbar ends from .................. */
+
+
+/* ................section-1 starts from here................... */
+.section-one{
+    
+}
+.sec-one-text{
+    
+}
+.sec-one-text h4{
+    font-size: 10vmin;
+    letter-spacing: 1px;
+    font-family: 'Fredericka the Great', cursive;
+    font-weight: lighter;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+/* .sec-text h4:hover{
+    font-size: 12vmin;
+    width:600px ;
+    align-items: center;
+    color: rgb(229, 232, 235);
+} */
+
+.sec-one-text .line{
+    width: 290px;
+    height: 8px;
+    background-color: rgb(231, 171, 20);
+    border-radius: 20px;
+    margin: 7px auto;
+    
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+.sec-one-text .line:hover{
+    width: 480px;
+    transition: all 1s ease-in-out;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.row .col img{
+    display: flex;
+    width: 600px;
+    height: 400px;
+    box-shadow: 12px 12px rgb(209, 154, 13);
+    /* margin-bottom: 20px; */
+}
+
+.col h5{
+    margin: 13px auto;
+    
+    align-items: center;
+    font-size: 4vmin;
+}
+.col p{
+    font-size: 2.2vmin;
+    margin-bottom: 20px;
+}
+.col a{
+    color: white;
+    text-decoration: none;
+    padding: 6px 15px;
+    color: white;
+    border-radius: 20px;
+    background-color: rgba(255, 0, 43, 0.849);
+    margin-bottom: 20px;
+
+}
+
+/* ................section-1 ends here ...................... */
+
+
+/* ................section-2 starts from here ...................... */
+
+.section-two {
+    background-image: url('./compass-2946959_1920.jpg');
+    background-position: center;
+    background-size: cover;
+    margin-top: 40px;
+    opacity: 1;
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: space-evenly;
+    color: white;
+}
+
+.section-two:hover{
+    width: 120vw;
+    transition: all 1s ease-in-out;
+    opacity: .95;
+}
+.section-two .sec-two-text{
+    width: 50%;
+    
+}
+.sec-two-text h6{
+    cursor: pointer;
+    font-size: 9vmin;
+    font-weight: lighter;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+.sec-two-text .line{
+    width: 200px;
+    align-items: center;
+    height: 8px;
+    border-radius: 10px;
+    background-color: rgb(255, 196, 0);
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+}
+
+.sec-two-text .line:hover{
+    width: 400px;
+}
+
+.sec-two-text p{
+    margin: 30px 0px 0px 20px;
+    font-size: 3.6vmin;
+    width: 900px;
+    margin-bottom: 20px;
+}
+
+.sec-two-text a{
+    text-decoration: none;
+    /* text-align: center; */
+    margin: 200px;
+    padding: 8px 20px;
+    color: white;
+    border-radius: 20px;
+    background-color: rgba(255, 0, 43, 0.849);
+    
+}
+
+/* ................section-2 ends here ...................... */
+
+
+/* ................section-3 starts from here ...................... */
+
+.section-three{
+}
+
+.sec-row{
+   width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 70px;    
+}
+
+.sec-col{
+    width: 50%;
+    /* margin: 70px; */
+}
+
+.sec-col .sec-col-primary{
+    display: flex;
+    flex-direction: column;
+    /* width: 0%;  */
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    /* margin-bottom: 100px; */
+}
+.sec-col-primary h4{
+    justify-content: center;
+    text-align: center;
+    font-size: 5vmin;
+    color: #9b825b;
+    
+}
+.sec-col-primary .line{
+    width: 300px;
+    height: 8px; 
+    background-color: dimgray;
+    border-radius: 10px;
+    margin-top: 8px;
+    margin-left: 35px;
+    cursor: pointer;
+}
+.sec-col-primary .line:hover{
+    width: 500px;
+    transition: all 1s ease-in-out;
+}
+.sec-col-primary p{
+    font-size: 2.4vmin;
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.sec-col-primary a{
+    
+    text-decoration: none;
+    padding: 8px 30px;
+    color: white;
+    border-radius: 20px;
+    background-color: rgba(255, 0, 43, 0.849);
+}
+
+.sec-col .img-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    /* width: 120%; */
+}
+.img-gallery img{
+    cursor: pointer;
+    width: 40%;
+    margin: 20px ;
+    
+    box-shadow: 10px 10px rgba(209, 154, 13, 0.952);
+    transform: scale(1);
+}
+.img-gallery img:hover{
+    transform: scale(1.1);
+    transition: 1s ease-in-out;
+}
+
+/* ................section-3 ends here ...................... */
+
+
+/* ................section-4 starts from here ...................... */
+
+.section-four{
+    background-color: gray;
+}
+footer{
+    background-color: rgba(0, 0, 0, 0.884);
+}
+footer h3{
+    text-align: center;
+    font-size: 5vmin;
+    color: white;
+}
+
+footer .sec-office{
+    display: flex;
+    width: 90%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+footer .sec-office li{
+    list-style: none;
+    cursor: pointer;
+    color: white;
+    margin: auto;
+    font-size: 3vmin;
+    flex-wrap: wrap;
+}
+
+footer .sec-office li:hover{
+    color: rgb(255, 0, 85);
+}
+.sec-four{
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    color: white;
+}
+.sec-four-text{
+    background-color: rgba(0, 0, 0, 0.568);
+    margin:20px auto;
+    /* display: flex; */
+}
+#office {
+    background-color: rgba(0, 0, 0, 0.568);
+}
+#office h4{
+    text-align: center;
+    font-size: 3.3vmin;
+    color: white;
+    margin-bottom: 8px;
+}
+#office li{
+    list-style: none;
+}
+#office li a{
+    color: white;
+    font-size: 3vmin;
+    text-decoration:none;
+    /* padding: 10px; */
+    
+}
+#office li a:hover{
+    color: rgb(255, 0, 43);
+}
+
+.sec-four-text{
+    font-size: 3vmin;  
+}
+
+#news h6{
+    font-size: 3vmin;
+    /* background-color: palevioletred; */
+}
+#input-text{
+    height: 32px;
+}
+#news .bttn{
+    width: 110px; 
+    padding: 4px;
+    background-color: black;
+    border: 1px solid white;
+    font-size: 21px;
+    font-family: Vani;
+    color: white;
+    cursor: pointer;
+    /* border-radius: 6px; */
+}
+#news .bttn:hover{
+    transition: all .6s ease-in-out;
+    background-color: rgb(56 56 56);
+}
+
+.footer-end{
+    color: white;
+    width: 90%;
+    padding: 20px;
+    text-align: center;
+    list-style: none;
+}
+
+/* ................section-4 ends here ...................... */
+
+
+/* ................media query starts from here.................. */
+
+@media (max-width: 975px){
+    .hamburger{
+        display: block;
+    }
+    .hamburger.active .bar :nth-child(2){
+        opacity: 0;
+    }
+    .hamburger.active .bar :nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar :nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+        
+    }
+    .nav-ul{
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        gap: 0;
+        flex-direction: column;
+        background-color:rgba(0, 0, 0, 0.3) ;
+        
+        text-align: center;
+        width: 100%;
+        transition: 0.3s;
+    }
+    .nav-items{
+        margin: 16px 0;
+    }
+
+    .nav-ul.active{
+        left: 0;
+    }
+    ul img{
+        display: none;
+    }
+
+    .header-text .line{
+        width: 200px;
+    }
+    .header-text .line:hover{
+        width: 250px;
+    }
+    
+    .sec-one-text .line{
+        width: 150px;
+    }
+
+    .sec-one-text .line:hover{
+        width: 200px;
+    }
+
+    .row{
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .row .col img{
+        width: 280px;
+        height: 200px;
+    }
+
+    .col a{
+        padding: 4px 12px;
+    }
+    .sec-two-text .line{
+        width: 100px;
+    }
+    .sec-two-text .line:hover{
+        width: 150px;
+    }
+    .sec-two-text p{
+        width: 280px;
+    }
+    .sec-two-text a{
+        margin: 20px;
+        padding: 3px 5px;
+    }
+    .sec-row{
+        flex-direction: column;
+    }
+    .sec-col{
+        width: 80%;
+    }
+    .sec-col-primary{
+        width: 100%;
+    }
+    .sec-col-primary h4{
+        
+    }
+    .sec-col-primary .line{
+        width: 200px;
+    }
+    .sec-col-primary .line:hover{
+        width: 250px;
+        
+    }
+    .sec-col-primary p{
+        /* width: 100%; */
+    }
+    .sec-col-primary a{
+        padding: 4px 10px;
+    }
+    .img-gallery{
+        width: 100%;
+        justify-content: center;
+    }
+    .img-gallery img{
+        align-items: center;
+        width: 40%;
+    }
+    
+    footer .sec-office{
+        flex-direction: column;
+    }
+    .sec-four{
+        flex-direction: column;
+    }
+    .footer-end{
+        font-size: 4vmin;
+    }
+    footer h3{
+        font-size: 8vmin;
+    }
+    footer .sec-office li{
+        font-size: 5vmin;
+    }
+    #office h4{
+        font-size: 7vmin;
+    }
+    #office li a{
+        font-size: 5vmin;
+    }
+    .sec-four-text{
+        font-size: 4vmin;
+    }
+
+
+}
+
+@media(max-width : 2000px){
+    .navbar{
+        width: 100%;
+    }
+}
+
+
+
+/* ................media query end here.................. */
